@@ -72,10 +72,6 @@ a {
     padding: 8px;
 }
 
-.main {
-
-}
-
 .hero {
     display: flex;
     gap: 120px;
@@ -124,10 +120,6 @@ a {
     align-content: center;
 }
 
-.hero__signup__subtitle {
-
-}
-
 .hero__contactus-button {
     font-size: 20px;
     line-height: 150%;
@@ -150,4 +142,19 @@ a {
 .hero__image {
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.partners {
+    padding-bottom: 37px;
+}
+
+.partners__title {
+    font-size: 20px;
+    line-height: 140%;
+    color: #4b4b55;
+}
+
+.partners__list {
+    padding-top: 65px;
+    display: flex;
 }
