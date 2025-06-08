@@ -20,10 +20,6 @@ a {
     color: inherit;
 }
 
-.header {
-
-}
-
 .container {
     width: 100%;
     max-width: 1105px;
@@ -42,10 +38,6 @@ a {
     color: #100024;
 }
 
-.header__logo {
-
-}
-
 .header__nav {
     display: flex;
     gap: 25px;
@@ -54,10 +46,6 @@ a {
 .header__nav-button {
     display: flex;
     gap: 10px;
-}
-
-.nav-button__text {
-
 }
 
 .header__account-buttons {
@@ -82,4 +70,84 @@ a {
     box-shadow: 0 0 0 0 #100024;
     background: #100024;
     padding: 8px;
+}
+
+.main {
+
+}
+
+.hero {
+    display: flex;
+    gap: 120px;
+    padding-top: 80px;
+}
+
+.hero__left-col {
+    padding-top: 35px;
+}
+
+.hero__title {
+    font-size: 60px;
+    line-height: 113%;
+    letter-spacing: 0.01em;
+    color: #100024;
+    text-align: left;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    line-height: 156%;
+    color: #34343d;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.hero__buttons {
+    display: flex;
+    gap: 15px;
+    padding-top: 45px;
+}
+
+.hero__signup-button {
+    border-radius: 8px;
+    width: 147px;
+    height: 62px;
+    box-shadow: 0 0 0 0 #100024;
+    background: #100024;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero__signup__subtitle {
+
+}
+
+.hero__contactus-button {
+    font-size: 20px;
+    line-height: 150%;
+    color: #100024;
+    border-radius: 8px;
+    width: 147px;
+    height: 62px;
+    box-shadow: 0 0 0 0 #ccccd4;
+    background: #fff;
+    padding: 15px;
+}
+
+.hero__right-col {
+    background-image: url(./images/hero_background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: 130px;
+}
+
+.hero__image {
+    padding-left: 25px;
+    padding-right: 25px;
 }
