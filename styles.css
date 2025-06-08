@@ -1,0 +1,85 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1105px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__header {
+    padding-top: 25px;
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 150%;
+    color: #100024;
+}
+
+.header__logo {
+
+}
+
+.header__nav {
+    display: flex;
+    gap: 25px;
+}
+
+.header__nav-button {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button__text {
+
+}
+
+.header__account-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.header__login-button {
+    border-radius: 8px;
+    width: 76px;
+    height: 40px;
+    box-shadow: 0 0 0 0 #ccccd4;
+    background: #fff;
+    padding: 8px;
+}
+
+.header__signup-button {
+    color: #fff;
+    border-radius: 8px;
+    width: 87px;
+    height: 40px;
+    box-shadow: 0 0 0 0 #100024;
+    background: #100024;
+    padding: 8px;
+}
