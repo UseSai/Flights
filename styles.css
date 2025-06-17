@@ -299,3 +299,141 @@ a {
     padding-top: 35px;
     text-align: left;
 }
+
+.suite {
+    background-color: #F6F5F9;
+    padding-top: 130px;
+    padding-bottom: 190px;
+}
+
+.suite__inscription {
+    font-size: 12px;
+    line-height: 167%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #206c5e;
+    border-radius: 6px;
+    width: 123px;
+    height: 28px;
+    margin: auto;
+    padding: 4px;
+    background: #ccefe9;
+}
+
+.suite__title {
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    color: #100024;
+    padding-top: 25px;
+}
+
+.suits__flights-api {
+    border-radius: 8px;
+    width: 1104px;
+    height: 821px;
+    background: #fff;
+}
+
+.flights-api__cols {
+    display: flex;
+    gap: 70px;
+}
+
+.flights-api__left-col {
+    padding-top: 180px;
+    padding-left: 40px;
+}
+
+.flights-api__title {
+    font-size: 36px;
+    line-height: 122%;
+    letter-spacing: 0.01em;
+    color: #100024;
+    text-align: left;
+}
+
+.flight-api__subtitle {
+    padding-top: 35px;
+    font-size: 18px;
+    line-height: 156%;
+    color: #4b4b55;
+    text-align: left;
+    max-width: 600px;
+    min-width: 330px;
+    padding-bottom: 30px;
+}
+
+.flights-api__button {
+    border-radius: 8px;
+    width: 276px;
+    height: 59px;
+    box-shadow: 0 0 0 0 #ccccd4;
+    background: #fff;
+    font-size: 18px;
+    line-height: 150%;
+    color: #100024;
+}
+
+.flights-api__right-col {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 40px;
+}
+
+.flights-api__image {
+    border-radius: 8px;
+    width: 300px;
+    height: 254px;
+    background: #f6f5f9;
+}
+
+.flight-api__image-title {
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #100024;
+    text-align: left;
+    padding: 25px;
+}
+
+.flights-api__stripe {
+    margin-top: 50px;
+    margin-left: 40px;
+    content: "";
+    display: block;
+    width: 1024px;
+    height: 1px;
+    background: #e2e2e8;
+}
+
+.flight-api__managed-content {
+    margin-top: 50px;
+    border-radius: 8px;
+    width: 1024px;
+    height: 112px;
+    background: #e5f8f4;
+    margin-left: 40px;
+    display: flex;
+    gap: 320px;
+    justify-content: center;
+    align-items: center;
+}
+
+.managed-content__title {
+    font-size: 20px;
+    line-height: 140%;
+    color: #103735;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.managed-content__button {
+    font-size: 16px;
+    line-height: 150%;
+    color: #103735;
+    text-align: left;
+    max-width: 460px;
+}
